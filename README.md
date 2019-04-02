@@ -1,2 +1,3 @@
-# NET-Core-2-IdentityServer
-Identity Server 4
+# PoC_IdentityServer
+
+Proof of concept for Identity Server 4 authorization and authentication.

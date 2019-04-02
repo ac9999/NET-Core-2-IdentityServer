@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.IdentityServer", "Auth.IdentityServer\Auth.IdentityServer.csproj", "{D313B4A0-2643-4070-9E73-1575125B8E6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Website1", "Auth.Website1\Auth.Website1.csproj", "{9DC6BD13-5BC6-436E-BA77-44E5ACAE0FE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Website2", "Auth.Website2\Auth.Website2.csproj", "{890D2E90-CFE4-40C9-97CE-7104DEDBD92C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Website3", "Auth.Website3\Auth.Website3.csproj", "{F35A2926-702F-4507-A8AA-366CAA475019}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D313B4A0-2643-4070-9E73-1575125B8E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D313B4A0-2643-4070-9E73-1575125B8E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D313B4A0-2643-4070-9E73-1575125B8E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D313B4A0-2643-4070-9E73-1575125B8E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC6BD13-5BC6-436E-BA77-44E5ACAE0FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC6BD13-5BC6-436E-BA77-44E5ACAE0FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC6BD13-5BC6-436E-BA77-44E5ACAE0FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC6BD13-5BC6-436E-BA77-44E5ACAE0FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890D2E90-CFE4-40C9-97CE-7104DEDBD92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D2E90-CFE4-40C9-97CE-7104DEDBD92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D2E90-CFE4-40C9-97CE-7104DEDBD92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D2E90-CFE4-40C9-97CE-7104DEDBD92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35A2926-702F-4507-A8AA-366CAA475019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35A2926-702F-4507-A8AA-366CAA475019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35A2926-702F-4507-A8AA-366CAA475019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35A2926-702F-4507-A8AA-366CAA475019}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1B49426-40A3-465F-8171-F5D3147810DA}
+	EndGlobalSection
+EndGlobal
