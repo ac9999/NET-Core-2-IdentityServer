@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\data\\2019.clients.agrin\\POC_IdentityServer\\Auth.Website3\\Auth.Website3.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
