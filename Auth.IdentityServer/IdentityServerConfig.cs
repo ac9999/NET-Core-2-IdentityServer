@@ -19,6 +19,13 @@ namespace Auth.IdentityServer
             };
         }
 
+        public static IEnumerable<ApiResource> GetApiResources()
+        {
+            return new List<ApiResource> {
+                new ApiResource("Website3DemoApi", new [] { "name" })
+            };
+        }
+
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client> {
@@ -46,17 +53,28 @@ namespace Auth.IdentityServer
                         IdentityServerConstants.StandardScopes.Profile
                     }
                 },
-                  new Client {
+                new Client
+                {
                     ClientId = "Website3",
-                    ClientName = "Website3",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    ClientSecrets = new [] { new Secret("MySecret".Sha256()) },
+                    AllowedScopes = new List<string> { "Website3DemoApi" }
+                },
+                new Client
+                {
+                    ClientId = "Spa",
                     AllowedGrantTypes = GrantTypes.Implicit,
-                    RedirectUris = { "https://localhost:5003/signin-oidc" },
-                    PostLogoutRedirectUris = new List<string> { "https://localhost:5003/signout-callback-oidc" },
-                    AllowedScopes = new List<string>
+                    AllowAccessTokensViaBrowser = true,
+                    AllowedScopes =
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
-                    }
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "Website3DemoApi"
+                    },
+                    RedirectUris = { "https://localhost:5003/SignInCallback.html" },
+                    PostLogoutRedirectUris = { "https://localhost:5003/SignOutCallback.html" },
+                    AllowedCorsOrigins = { "https://localhost:5003" },
+                    RequireConsent = false
                 }
             };
         }

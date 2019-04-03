@@ -9,8 +9,14 @@
 /Auth.IdentityServer/Auth.IdentityServer/bin/Debug/netcoreapp2.2
 /Auth.IdentityServer/Auth.IdentityServer/tempkey.rsa
 /Auth.IdentityServer/Auth.IdentityServer/Auth.IdentityServer.csproj.user
-/Auth.Website1/bin/Debug/netcoreapp2.2
-/Auth.Website1/obj
 /.vs
 /Auth.IdentityServer/bin/Debug/netcoreapp2.2
 /Auth.IdentityServer/obj
+/Auth.Website1/bin
+/Auth.Website1/obj
+/Auth.Website2/bin
+/Auth.Website2/obj
+/Auth.Website3/bin
+/Auth.Website3/obj
+/Auth.Api/bin/Debug/netcoreapp2.2
+/Auth.Api/obj
