@@ -4,7 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>Auth.Web</ActiveDebugProfile>
-    <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <ActiveDebugProfile>Auth.Api</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

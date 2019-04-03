@@ -13,18 +13,7 @@
         <div class="header clearfix">
             <nav>
                 <ul class="nav nav-pills pull-right">
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <li role="presentation" class="active">
-                            <form method="post" asp-controller="Auth" asp-action="SignOut">
-                                <button type="submit" class="btn btn-primary">Sign Out</button>
-                            </form>
-                        </li>
-                    }
-                    else
-                    {
-                        <li role="presentation" class="active"><a asp-controller="Auth" asp-action="SignIn">Sign In</a></li>
-                    }
+                    <li role="presentation" class="active"><a asp-controller="Home" asp-action="spa">Single Page Demo</a></li>
                 </ul>
             </nav>
             <h3 class="text-muted">Website 3</h3>
